@@ -2,7 +2,7 @@ package com.devsuperior.dsmovie.dto;
 
 public class ScoreDTO {
 
-	private Long moveId;
+	private Long MovieId;
 	private String email;
 	private Double score;
 	
@@ -10,12 +10,12 @@ public class ScoreDTO {
 		
 	}
 
-	public Long getMoveId() {
-		return moveId;
+	public Long getMovieId() {
+		return MovieId;
 	}
 
-	public void setMoveId(Long moveId) {
-		this.moveId = moveId;
+	public void setMovieId(Long MovieId) {
+		this.MovieId = MovieId;
 	}
 
 	public String getEmail() {
